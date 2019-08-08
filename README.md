@@ -11,5 +11,8 @@ This is a React project following [Complete React Developer in 2019(w/ Redux, Ho
 * Reselect
 * Firebase
 * Firestore
+* Styled Components
+* Stripe
 
-*last updated: Aug 3 2019
+
+*last updated: Aug 7 2019
