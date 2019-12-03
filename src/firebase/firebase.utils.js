@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
+import { googleSignInStart } from '../redux/user/user.actions';
 
 const config = {
     apiKey: "AIzaSyDyPoXY9nkXhbf8-n3jkXI4slUPb8Dnfj4",
@@ -74,9 +75,9 @@ export const convertCollectionsSnapshotToMap = (collections) => {
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
-const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({ prompt: 'select_account' });
-export const signInWithGoogle = () => auth.signInWithPopup(provider);
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: 'select_account' });
+export const signInWithGoogle = () => auth.signInWithPopup(googleSignInStart);
 
 export default firebase;
 
