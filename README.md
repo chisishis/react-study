@@ -2,7 +2,7 @@
 
 This is a React project following [Complete React Developer in 2019(w/ Redux, Hooks, GraphQL)](https://www.udemy.com/complete-react-developer-zero-to-mastery)
 
-## Libraries Used
+## Package Used
 
 * React
 * Redux
@@ -13,6 +13,7 @@ This is a React project following [Complete React Developer in 2019(w/ Redux, Ho
 * Firestore
 * Styled Components
 * Stripe
+* React-thunk -> React-Saga
 
 
-*last updated: Aug 7 2019
+*last updated: Dec 3 2019
