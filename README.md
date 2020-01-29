@@ -12,8 +12,8 @@ This is a React project following [Complete React Developer in 2019(w/ Redux, Ho
 * Firebase
 * Firestore
 * Styled Components
-* Stripe
-* React-thunk -> React-Saga
+* Stripe API
+* Redux-thunk -> Redux-Saga
 
 
 *last updated: Dec 3 2019
