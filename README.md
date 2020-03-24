@@ -14,6 +14,6 @@ This is a React project following [Complete React Developer in 2019(w/ Redux, Ho
 * Styled Components
 * Stripe API
 * Redux-thunk -> Redux-Saga
-
+* Move to the new repo in order to implement Context-API
 
 *last updated: Dec 3 2019
